@@ -1,0 +1,3 @@
+/root/MyGitProjectNew/08_binary/build/CMakeFiles/guess.dir
+/root/MyGitProjectNew/08_binary/build/CMakeFiles/edit_cache.dir
+/root/MyGitProjectNew/08_binary/build/CMakeFiles/rebuild_cache.dir
