@@ -1,0 +1,11 @@
+--- students.c	2025-02-26 18:14:31.487067898 +0300
++++ new_update.c	2025-02-26 18:15:02.974170406 +0300
+@@ -26,7 +26,7 @@
+ 	int MCount=0;
+ 	int FCount=0;
+ 	for (int i=0; i<count; i++){
+-		if (strcmp(students[i].sex, "M")==0)
++		if (strcmp(students[i].sex, "F")==0)
+ 		{
+ 			FCount++;
+ 		}

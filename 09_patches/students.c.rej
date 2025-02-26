@@ -1,0 +1,12 @@
+--- students.c	2025-02-22 18:26:59.199008925 +0300
++++ updated_students.c	2025-02-22 18:30:34.012348119 +0300
+@@ -25,5 +34,9 @@
+         {3, "Alice Johnson"}
+     };
+     printStudents(students, 3);
++    int searchId;
++    printf("Enter student ID to search: ");
++    scanf("%d", &searchId);
++    findStudentById(students, 3, searchId);
+     return 0;
+ }
