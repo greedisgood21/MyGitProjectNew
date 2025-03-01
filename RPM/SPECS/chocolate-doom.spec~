@@ -7,15 +7,15 @@ License:        GPLv2
 URL:            https://www.chocolate-doom.org/
 Source0:        chocolate-doom-%{version}.tar.gz
 
-BuildRequires:  gcc, make, automake, autoconf, SDL2-devel, SDL2_mixer-devel
-Requires:       SDL2, SDL2_mixer
+BuildRequires:  gcc, make, automake, autoconf, libSDL2-devel, libSDL2_mixer-devel, libSDL2_net-devel
+Requires:       libSDL2, libsSDL2_mixer, SDL2_net
 
 %description
 Chocolate Doom is a port of the classic DOOM game that aims to reproduce the
 original experience as closely as possible.
 
 %prep
-%setup -q
+%setup -q -n chocolate-doom
 
 %build
 ./autogen.sh
